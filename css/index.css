@@ -194,13 +194,12 @@ footer nav a {
      border-bottom: 1px dashed black;
      padding:20px;
  }
- .aboutdiv h2{
-     padding-top: 12px;
-     
+ .aboutintro{
+     display:flex;
+     flex-direction:column;
+     margin:0 18px 0 18px;
  }
- .aboutdiv p{
-     padding-bottom: 15px;
- }
+
  .learnmore{
      border:2px solid black;
      padding:10px 12px;
@@ -208,7 +207,7 @@ footer nav a {
      background-color: white;
      text-decoration:none;
      border-radius:10px;
-     width: 30%;
+     width: 31%;
  }
  .container-about-page{
      background: white;
@@ -219,7 +218,7 @@ footer nav a {
  }
  .about-page{
      margin-top:-6.4%;
-     height:157.2%;
+     height:153.9%;
  }
  .aboutbody h2{
      padding-top: 10px;
